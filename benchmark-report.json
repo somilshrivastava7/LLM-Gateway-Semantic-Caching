@@ -1,0 +1,32 @@
+{
+  "exact": {
+    "validSamples": 20,
+    "averageMs": 13.09,
+    "p50Ms": 13.95,
+    "p95Ms": 15.14,
+    "p99Ms": 15.71,
+    "latencyReductionVsMissPercent": 99.91
+  },
+  "semantic": {
+    "validSamples": 20,
+    "averageMs": 1245,
+    "p50Ms": 765.74,
+    "p95Ms": 2709.12,
+    "p99Ms": 3639.79,
+    "latencyReductionVsMissPercent": 91.04
+  },
+  "miss": {
+    "validSamples": 9,
+    "averageMs": 13900.27,
+    "p50Ms": 13486.97,
+    "p95Ms": 19357.28,
+    "p99Ms": 19357.28
+  },
+  "benchmarkQuality": {
+    "totalRecordedRows": 60,
+    "intendedMissAttempts": 20,
+    "validGenerationMisses": 9,
+    "unexpectedCacheHits": 11,
+    "unexpectedHitRatePercent": 55
+  }
+}
